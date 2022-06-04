@@ -3,8 +3,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
-
-
+//https://www.codewars.com/kata/554b4ac871d6813a03000035
 public class higherLower {
     public static void main(String[] args) {
         System.out.println(highAndLow("2 22 2"));

@@ -1,5 +1,5 @@
 package com.GoodStream;
-
+//https://www.codewars.com/kata/5526fc09a1bbd946250002dc
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 

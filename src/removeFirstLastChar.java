@@ -1,7 +1,7 @@
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-
-public class goodbyeFirstLast {
+//https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0
+public class removeFirstLastChar {
 
     public static void main(String[] args) {
         System.out.println(remove("Test"));

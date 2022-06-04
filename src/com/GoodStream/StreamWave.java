@@ -1,3 +1,5 @@
+package com.GoodStream;
+
 import java.util.stream.IntStream;
 
 public class StreamWave {

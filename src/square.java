@@ -1,6 +1,6 @@
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
+//https://www.codewars.com/kata/546e2562b03326a88e000020
 public class square {
     public static void main(String[] args) {
         System.out.println(squareDigits(9119));

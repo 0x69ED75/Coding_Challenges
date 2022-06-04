@@ -1,5 +1,5 @@
 package com.GoodStream;
-
+//https://www.codewars.com/kata/546e2562b03326a88e000020
 import java.util.stream.Collectors;
 
 public class SquareStream {
