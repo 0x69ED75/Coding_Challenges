@@ -1,10 +1,10 @@
+//https://www.codewars.com/kata/541c8630095125aba6000c00
 import java.util.Arrays;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
-
 import static java.util.stream.IntStream.of;
-//https://www.codewars.com/kata/541c8630095125aba6000c00
+
 public class digitalRoot {
     public static void main(String[] args) {
         System.out.println(digital_root(456));
