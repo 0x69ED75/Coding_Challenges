@@ -1,10 +1,7 @@
-import com.sun.xml.internal.ws.util.StringUtils;
-
-import java.util.Arrays;
-import java.util.Locale;
-import java.util.regex.Pattern;
-import java.util.stream.Stream;
 //https://www.codewars.com/kata/5390bac347d09b7da40006f6
+/*
+capitalises the first character of each word in a string.
+ */
 public class capitalise {
     public static void main(String[] args) {
         System.out.println(toJadenCase("test one two three"));

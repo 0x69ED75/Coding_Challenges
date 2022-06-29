@@ -1,5 +1,10 @@
 import java.text.DecimalFormat;
-// This solution isn't great but it works, and I learnt a lot from it.
+/* This solution isn't great but it works, and I learnt a lot from it.
+   Given an integer, which is a number of seconds, format this in the format:
+   - Years, days, hours, minutes, seconds.
+   Do not include any values which are 0 in the output.
+         - 3662 = "1 hour, 1 minute and 2 seconds
+ */
 //https://www.codewars.com/kata/52742f58faf5485cae000b9a
 public class humanReadableTime {
 

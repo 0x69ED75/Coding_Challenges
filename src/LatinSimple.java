@@ -1,6 +1,8 @@
-import java.util.Arrays;
-import java.util.stream.Collectors;
 //https://www.codewars.com/kata/520b9d2ad5c005041100000f
+/*
+Returns the pig-latin equivalent of a string.
+https://en.wikipedia.org/wiki/Pig_Latin
+ */
 public class LatinSimple {
     public static void main(String[] args) {
         System.out.println(pigIt("Pig latin is cool"));

@@ -1,5 +1,5 @@
 //https://www.codewars.com/kata/585d7d5adb20cf33cb000235
-
+// In an array, all numbers are equal, apart from one, find it.
 import java.util.Arrays;
 public class UniqueNumber {
     public static void main(String[] args) {

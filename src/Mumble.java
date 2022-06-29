@@ -1,4 +1,10 @@
 //https://www.codewars.com/kata/5667e8f4e3f572a8f2000039
+/*
+For each character in a string, repeat this character the same number of times as its index.
+accum("abcd") -> "A-Bb-Ccc-Dddd"
+accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+accum("cwAt") -> "C-Ww-Aaa-Tttt"
+ */
 public class Mumble {
     public static void main(String[] args) {
         System.out.println(accum("ZpglnRxqenU"));

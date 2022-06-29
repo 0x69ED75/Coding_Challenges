@@ -2,7 +2,7 @@ package com.GoodStream;
 //https://www.codewars.com/kata/52fba66badcd10859f00097e
 import java.util.Objects;
 import java.util.stream.Collectors;
-
+// Removes the vowels from a String.
 public class disemvowel {
     public static void main(String[] args) {
         System.out.println(disemvowel("This website is for losers LOL"));

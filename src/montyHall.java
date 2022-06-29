@@ -1,4 +1,8 @@
 //https://www.codewars.com/kata/54f9cba3c417224c63000872/java
+/*
+Return the win percentage of all participants if they decide to change their given door, according to the Monty Hall Problem
+https://en.wikipedia.org/wiki/Monty_Hall_problem
+ */
 import java.util.Arrays;
 
 public class montyHall {

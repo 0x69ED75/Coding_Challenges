@@ -1,4 +1,7 @@
 //https://www.codewars.com/kata/5412509bd436bd33920011bc
+/*
+Given a credit card number, mask this number by replacing all but the last four characters with asterisks.
+ */
 public class CardMask {
     public static void main(String[] args) {
         System.out.println(maskify("4556364607935616"));

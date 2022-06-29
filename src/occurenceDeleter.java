@@ -1,3 +1,7 @@
+//https://www.codewars.com/kata/554ca54ffa7d91b236000023
+/*
+In an array, remove any value if it appears in the array more than N times.
+ */
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.stream.Collectors;

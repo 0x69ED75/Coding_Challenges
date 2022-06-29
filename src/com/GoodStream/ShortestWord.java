@@ -1,7 +1,9 @@
 package com.GoodStream;
 
 import java.util.stream.Stream;
-
+/*
+Given a string of words, return the length of the shortest word.
+ */
 public class ShortestWord {
     public static void main(String[] args) {
         System.out.println(findShort("bitcoin take over the world maybe who knows perhaps"));

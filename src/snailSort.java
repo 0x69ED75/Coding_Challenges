@@ -1,8 +1,10 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
 //https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1/
+/*
+Given an array, return the SnailSort of this array.
+// Snail Sort: https://medium.com/@spencerwhitehead7/snail-sort-the-gimmick-sort-goat-310510814eab
+ */
 public class snailSort {
     public static void main(String[] args) {
         // test cases

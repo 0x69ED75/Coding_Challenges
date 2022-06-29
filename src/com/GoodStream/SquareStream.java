@@ -1,7 +1,11 @@
 package com.GoodStream;
 //https://www.codewars.com/kata/546e2562b03326a88e000020
-import java.util.stream.Collectors;
 
+/*
+Given an integer, return the square of every digit, concatenate the result into a single integer.
+ */
+
+import java.util.stream.Collectors;
 public class SquareStream {
     public static void main(String[] args) {
         System.out.println(squareDigits(9119));

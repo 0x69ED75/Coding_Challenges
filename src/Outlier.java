@@ -1,7 +1,8 @@
 import java.util.ArrayList;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
 //https://www.codewars.com/kata/5526fc09a1bbd946250002dc
+/*
+Given an array of only odd or even integers, bar one, return the outlier.
+ */
 public class Outlier {
     public static void main(String[] args) {
         int[] exampleTest1 = {11, 63, 91, 200003, 101, 103, 44};

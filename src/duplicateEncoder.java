@@ -1,5 +1,11 @@
 //https://www.codewars.com/kata/54b42f9314d9229fd6000d9c
-
+/*
+Convert a string into a new string, where:
+     - each unique character is represented by "("
+     - and any non-unique character is represented by ")"
+"recede"   =>  "()()()"
+"Success"  =>  ")())())"
+ */
 public class duplicateEncoder {
     public static void main(String[] args) {
         System.out.println(encode("Prespecialized"));

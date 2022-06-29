@@ -1,4 +1,7 @@
 //https://www.codewars.com/kata/56747fd5cb988479af000028
+/*
+Returns the character at the middle of the string.
+ */
 public class mid {
     public static void main(String[] args) {
         System.out.println(getMiddle("Test"));

@@ -1,5 +1,8 @@
 // https://www.codewars.com/kata/55c6126177c9441a570000cc/train/java
-
+/*
+order a list when each value is given a weight.
+The weight for each value is equivalent to the sum of its digits.
+ */
 
 import java.util.*;
 

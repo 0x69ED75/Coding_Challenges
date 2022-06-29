@@ -1,5 +1,4 @@
-import java.util.stream.Stream;
-//https://www.codewars.com/kata/520b9d2ad5c005041100000f
+// Reverse any words >= length 5 in a string.
 public class Spin {
     public static void main(String[] args) {
         System.out.println(spinWords("Testttt test"));

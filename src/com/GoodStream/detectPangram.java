@@ -1,9 +1,10 @@
 package com.GoodStream;
-
-import java.util.Locale;
-import java.util.Objects;
-import java.util.stream.Collectors;
-
+//https://www.codewars.com/kata/545cedaa9943f7fe7b000048
+/*
+Detects whether a given String is a pangram.
+A pangram is a sentence that contains every single letter of the alphabet at least once
+Must be able to handle any number of punctuation and integers.
+ */
 public class detectPangram {
     public static void main(String[] args) {
         System.out.println(check("ABCD45EFGH,IJK,LMNOPQR56STUVW3XYZ"));

@@ -1,4 +1,10 @@
 //https://www.codewars.com/kata/5266876b8f4bf2da9b000362
+/*
+When given n names, arranging these names in the format of Facebook's "like" feature.
+["Jacob", "Alex"]                 -->  "Jacob and Alex like this"
+["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this"
+["Max", "John", "Mark"]           -->  "Max, John and Mark like this"
+ */
 public class whoLikes {
     public static void main(String[] args) {
         System.out.println(whoLikesIt("Peter","Sam","Ben","Tom"));

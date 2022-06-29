@@ -1,7 +1,10 @@
 import java.util.Objects;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 //https://www.codewars.com/kata/54ba84be607a92aa900000f1
+/*
+Returns whether a string is an Isogram.
+An isogram is a word that has no repeating letters,
+ */
 public class isogram {
     public static void main(String[] args) {
         System.out.println(isIsogram("Dermatoglyphics"));

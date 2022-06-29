@@ -1,11 +1,10 @@
 package com.GoodStream;
 //https://www.codewars.com/kata/53dbd5315a3c69eed20002dd
-import java.util.ArrayList;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
+// Given a string array, filter out any non-digit characters and return this as a list.
 public class Filter {
     public static void main(String[] args) {
         List<Object> list= Arrays.asList("Foo",1);

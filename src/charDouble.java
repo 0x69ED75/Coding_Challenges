@@ -1,5 +1,8 @@
-import java.util.Objects;
 // https://www.codewars.com/kata/56b1f01c247c01db92000076
+/*
+Given a string, return a string in which each character (case-sensitive) is repeated once.
+
+ */
 public class charDouble {
     public static void main(String[] args) {
         System.out.println(doubleChar("Two"));

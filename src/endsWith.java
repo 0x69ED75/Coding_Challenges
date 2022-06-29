@@ -1,4 +1,7 @@
 //https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d
+/*
+ returns true if the first argument(string) passed in ends with the 2nd argument (also a string).
+ */
 public class endsWith {
     public static void main(String[] args) {
         System.out.println(solution("Samurai","ai"));

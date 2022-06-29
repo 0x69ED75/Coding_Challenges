@@ -1,4 +1,8 @@
+/*
+Returns whether a number is prime
+ */
 public class isPrime {
+
     public static void main(String[] args) {
         System.out.println(isPrime(637015997));
 

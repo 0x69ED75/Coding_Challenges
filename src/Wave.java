@@ -1,6 +1,10 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 //https://www.codewars.com/kata/58f5c63f1e26ecda7e000029
+/*
+Turn a string into a mexican wave, where a capital letter symbolises someone standing up.
+wave("hello") => []string{"Hello", "hEllo", "heLlo", "helLo", "hellO"}
+
+ */
 public class Wave {
     public static void main(String[] args) {
         wave("One Two");

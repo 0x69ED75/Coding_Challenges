@@ -2,7 +2,8 @@ package com.GoodStream;
 //https://www.codewars.com/kata/55c45be3b2079eccff00010f
 import java.util.ArrayList;
 import java.util.Collections;
-
+// Given a string where each word has a number in them, rearrange the String such that the words are reordered in ascending order by their integer.
+// "is2 Thi1s T4est 3a"  -->  "Thi1s is2 3a T4est"
 public class sentenceOrder {
     public static void main(String[] args) {
         System.out.println(order("4of Fo1r pe6ople g3ood th5e the2"));

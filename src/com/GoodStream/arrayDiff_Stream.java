@@ -1,10 +1,12 @@
 package com.GoodStream;
 //https://www.codewars.com/kata/523f5d21c841566fde000009
+/*
+This application subtracts one array from another, removing the values in array B from Array A.
+Kata.arrayDiff(new int[] {1, 2, 2, 2, 3}, new int[] {2}) returns new int[] {1, 3}
+ */
+
 import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class arrayDiff_Stream {
     public static void main(String[] args) {

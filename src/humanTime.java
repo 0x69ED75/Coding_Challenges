@@ -1,4 +1,7 @@
 //https://www.codewars.com/kata/52685f7382004e774f0001f7/java
+/*
+Convert a integer input, which is the number of seconds, into hours, minutes and seconds.
+ */
 public class humanTime {
     public static void main(String[] args) {
         System.out.println(makeReadable(239520));

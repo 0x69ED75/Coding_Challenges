@@ -1,6 +1,7 @@
-import javax.sound.midi.SysexMessage;
-import java.util.stream.Stream;
 //https://www.codewars.com/kata/52774a314c2333f0a7000688
+/*
+Given a string consisting of Parentheses, return true if there is a closing parentheses for each open parenthesis.
+ */
 public class Parens {
 
     public static void main(String[] args) {

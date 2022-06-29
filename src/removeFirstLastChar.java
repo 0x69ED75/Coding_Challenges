@@ -1,6 +1,5 @@
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 //https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0
+// Given a string, remove the first and last character.
 public class removeFirstLastChar {
 
     public static void main(String[] args) {

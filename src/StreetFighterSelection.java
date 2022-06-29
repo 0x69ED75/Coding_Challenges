@@ -1,6 +1,11 @@
 // https://www.codewars.com/kata/5853213063adbd1b9b0000be
 import java.util.ArrayList;
 import java.util.Arrays;
+/*
+Given a two-dimensional array of characters from Street Fighter, and an array of directions
+Return the character that would be selected when these directions are input.
+ */
+
 
 public class StreetFighterSelection {
     public static void main(String[] args) {

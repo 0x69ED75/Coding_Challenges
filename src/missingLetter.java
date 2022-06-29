@@ -1,4 +1,10 @@
 //https://www.codewars.com/kata/5839edaa6754d6fec10000a2
+/*
+Given an array of consecutive characters, return the character that is missing:
+["a","b","c","d","f"] -> "e"
+["O","Q","R","S"] -> "P"
+The result is case-sensitive
+ */
 import java.util.ArrayList;
 import java.util.Arrays;
 

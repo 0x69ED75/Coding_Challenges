@@ -1,5 +1,6 @@
 //https://www.codewars.com/kata/55f2b110f61eb01779000053
 import java.util.stream.IntStream;
+// Given two integers, return the sum of all integers between them, including them.
 public class sum {
 
     public static void main(String[] args) {

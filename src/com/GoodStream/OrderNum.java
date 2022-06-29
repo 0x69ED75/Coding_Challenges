@@ -1,9 +1,10 @@
 package com.GoodStream;
 //https://www.codewars.com/kata/5467e4d82edf8bbf40000155
+/*
+take any non-negative integer as an argument and return it with its digits in descending order
+ */
 import java.util.Comparator;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class OrderNum {
     public static void main(String[] args) {

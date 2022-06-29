@@ -1,8 +1,10 @@
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 //https://www.codewars.com/kata/523f5d21c841566fde000009
+/*
+remove all values from list a, which are present in list b keeping their order.
+ */
 public class ArrayDiff {
     public static void main(String[] args) {
         System.out.println(arrayDiff(new int [] {1,2}, new int[] {1}));

@@ -1,4 +1,5 @@
-//https://www.codewars.com/kata/52fba66badcd10859f00097e
+//https://www.codewars.com/kata/55908aad6620c066bc00002a
+// Given a string, return true if the string contains the same number of case-insentive X's and O's
 public class XO {
     public static void main(String[] args) {
         System.out.println(getXO("ooxXm"));

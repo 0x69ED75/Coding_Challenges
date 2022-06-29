@@ -1,10 +1,9 @@
 //https://www.codewars.com/kata/541c8630095125aba6000c00
-import java.util.Arrays;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
-import static java.util.stream.IntStream.of;
-
+/*
+return the digital root of an integer.
+Digital root is the recursive sum of all the digits in a number.
+E.g: 132189  -->  1 + 3 + 2 + 1 + 8 + 9 = 24  -->  2 + 4 = 6
+ */
 public class digitalRoot {
     public static void main(String[] args) {
         System.out.println(digital_root(456));

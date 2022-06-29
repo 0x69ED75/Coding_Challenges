@@ -1,6 +1,10 @@
 import java.util.Arrays;
-
-// https://www.codewars.com/kata/54da539698b8a2ad76000228/train/java
+// https://www.codewars.com/kata/54da539698b8a2ad76000228/
+/*
+Given a cartesian grid with four directions "North, South, West, East" and an array with directions, where each direction takes 10 minutes to traverse:
+    - Return true if the directions lead you at the same place where you started. AND:
+    - Return true if the directions are exactly 10 minutes in length.
+ */
 public class cartesianGridChallenge {
     public static void main(String[] args) {
         System.out.println(isValid((new char[]{'n', 'w', 'n', 'w', 'n', 'w', 'n', 'w', 'n', 'w'})));

@@ -1,4 +1,9 @@
 //https://www.codewars.com/kata/5544c7a5cb454edb3c000047
+
+/*
+Given a ball dropped from height "h", how many times does it bounce at window at height "window"
+ Given that it only bounces to the ratio "bounce" of the original value each bounce.
+ */
 public class Ball {
     public static void main(String[] args) {
         System.out.println(bouncingBall(30, 0.66, 1.5));

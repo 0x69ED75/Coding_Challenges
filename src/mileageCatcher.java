@@ -1,6 +1,11 @@
 import java.util.Arrays;
-import java.util.stream.IntStream;
 //https://www.codewars.com/kata/52c4dd683bfd3b434c000292
+/*
+Given an Integer, which represents a car mileage meter:
+    - Return 1 if the number is clarified as "interesting"
+    - Return 2 if the number is up to 2 lower than the given integer.
+The description of what clarifies a number as "interesting" is clarified in the Kata description
+ */
 public class mileageCatcher {
     public static void main(String[] args) {
         System.out.println(isInteresting(9999999, new int[]{1337, 256}));

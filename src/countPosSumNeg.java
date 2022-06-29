@@ -2,6 +2,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 //https://www.codewars.com/kata/576bb71bbbcf0951d5000044
+/*
+Given an array of integers, return an array containing the count of positive numbers, and the sum of negative numbers
+ */
 public class countPosSumNeg {
     public static void main(String[] args) {
         System.out.println(countPositivesSumNegatives((new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15})));
