@@ -6,7 +6,7 @@ Finds the largest common subsequence of two strings.
 
 My method does this by storing all possible subsequences of both strings, and then searching both subsequences to find the biggest common subsequences.
 
-Therefore, this solution has quite bad time complexity, as finding all substrings of a string becomes increasingly time-consuming as string size increases
+Therefore, this solution has quite bad time complexity, as finding all subsequences of a string becomes increasingly time-consuming as string size increases
  */
 public class longestCommonSubsequence {
     public static void main(String[] args) {
