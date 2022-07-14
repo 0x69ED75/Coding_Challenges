@@ -4,6 +4,7 @@ import java.util.Arrays;
 Given a string x and an array of strings y, find the most similar String x in y.
  */
 public class Dictionary {
+
     public static void main(String[] args) {
         //Dictionary dictionary = new Dictionary(new String[]{"psaysnhfrrqgxwik", "pdyjrkaylryr", "lnjhrzfrosinb", "afirbipbmkamjzw", "loogviwcojxgvi", "iqkyztorburjgiudi", "cwhyyzaorpvtnlfr", "iroezmixmberfr", "jhjyasikwyufr", "tklquxrnhfiggb", "cpnqknjyviusknmte", "hwzsemiqxjwfk", "ntwmwwmicnjvhtt", "emvquxrvvlvwvsi", "sefsknopiffajor", "znystgvifufptxr", "xuwahveztwoor", "hrwuhmtxxvmygb", "karpscdigdvucfr", "xrgdgqfrldwk", "nnsoamjkrzgldi", "ljxzjjorwgb", "cfvruditwcxr", "eglanhfredaykxr", "fxjskybblljqr", "qifwqgdsijibor", "xikoctmrhpvi", "ajacizfrgxfumzpvi", "mhmkakybpczjbb", "vkholxrvjwisrk", "npyrgrpbdfqhhncdi", "pxyousorusjxxbt", "jcocndjkyb", "fxpvfhfrujjaifr", "hkldhadcxrjbmkmcdi", "hirldidcuzbyb", "ggcvrtxrtnafw", "tdvibqccxr", "osbednerciaai", "qojfrlhufr", "kqijoorfkejdcxr", "zqdrhpviqslik", "clxmqmiycvidiyr", "xffrkbdyjveb", "dyhxgviphoptak", "dihhiczkdwiofpr", "riyhpvimgaliuxr", "fgtrjakzlnaebxr", "ppctybxgtleipb", "ucxmdeudiycokfnb"});
         Dictionary dictionary = new Dictionary(new String[]{"cherry", "pineapple", "melon", "strawberry", "raspberry","banana"});
