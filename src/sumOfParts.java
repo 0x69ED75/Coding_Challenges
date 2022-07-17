@@ -1,5 +1,29 @@
 import java.util.Arrays;
 
+/*
+https://www.codewars.com/kata/5ce399e0047a45001c853c2b
+
+For a given array, add up all the values in the array, and store this value in a new array.
+then, remove the first value in the array and calculate the sum again.
+Repeat this until the entire array was traversed.
+
+ls = [0, 1, 3, 6, 10]
+
+would be broken down into:
+ls = [0, 1, 3, 6, 10]
+ls = [1, 3, 6, 10]
+ls = [3, 6, 10]
+ls = [6, 10]
+ls = [10]
+ls = []
+
+and return:
+[20, 20, 19, 16, 10, 0]
+
+However, the array will grow very large in tests. having tens of thousands of elements
+Therefore, it must run efficiently.
+ */
+
 public class sumOfParts {
     public static void main(String[] args) {
         System.out.println(Arrays.toString(sumParts(new int[] {0, 1, 3, 6, 10})));
