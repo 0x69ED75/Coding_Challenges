@@ -1,5 +1,10 @@
 console.log(high("what time are we climbing up the volcano"));
 
+/*
+https://www.codewars.com/kata/57eb8fcdf670e99d9b000272
+Given a string, return the word with the biggest alphabetical score where a = 1, b = 2, c =3
+ */
+
 function high(x){
     let biggestWord = "";
     let currentHighestScore = 0;
