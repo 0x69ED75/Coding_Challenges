@@ -2,7 +2,8 @@ import java.util.ArrayList;
 
 /*
 https://www.codewars.com/kata/55d8aa568dec9fb9e200004a
-Create a function sel_number(), that will select numbers that fulfill the following constraints:
+Create a function sel_number(), that will return the size of the array containing integers that fulfill the following constraints when given two integers, n(maximum) and d(minimum):
+
 The numbers should have 2 digits at least.
 
 They should have their respective digits in increasing order from left to right. Examples: 789, 479, 12678, have these feature. But 617, 89927 are not of this type.
@@ -27,15 +28,15 @@ public class HowManyNumbers {
     public static int selNumber(int n, int d) {
         ArrayList<Integer> values = new ArrayList<Integer>();
         outerLoop:
-        for(int i = d; i < n ; i++){
-            int[] digits = Integer.toString(i).chars().map(c -> c-'0').toArray(); // breaking integer into an array of its digits
-            if(digits.length == 1){ continue;}
-            for(int j = 0; j < digits.length-1; j++){
-                if(!((digits[j+1] - digits[j]) <= d && (digits[j+1] - digits[j]) > 0)){
+        for(int i = d; i < n ; i++){ // looping all numbers from d to n
+            int[] digits = Integer.toString(i).chars().map(c -> c-'0').toArray(); // breaking integer i into an array of its digits
+            if(digits.length == 1){ continue;} // if digits length is 1, it will meet the conditions below despite not meant to.
+            for(int j = 0; j < digits.length-1; j++){ // looping through all digits of number.
+                if(!((digits[j+1] - digits[j]) <= d && (digits[j+1] - digits[j]) > 0)){ // if the digit at j+1 subtract the digit at j is not <= d or is less than 0, return to the labelled outer loop
                     continue outerLoop;
                 }
             }
-            values.add(i);
+            values.add(i); // this will only ever be reached if the above if condition is never met, meaning this number meets all criteria.
         }
         return values.size();
     }
