@@ -4,25 +4,26 @@ Given a 0-indexed array "security", and integer time, find the indices which mee
 security[i - time] >= security[i - time + 1] >= ... >= security[i] <= ... <= security[i + time - 1] <= security[i + time]
  */
 
-var goodDaysToRobBank = function(security, time) { // Low space complexity, but high tiem complexity
+var goodDaysToRobBank = function(security, time) { // Low space complexity, but high time complexity
     let days = []
     outer:
-    for(let i = time; i < security.length-time; i++){
-        let current;
-        for(let j = i-time; j <= i; j++){
-            if(security[j] > current){continue outer}
-            current = security[j]
-        }
-        let currentHigh;
-        for(let k = i+time; k >= i; k--){
-            if(security[k] > currentHigh){
-                continue outer
+        for(let i = time; i < security.length-time; i++){
+            let current;
+            for(let j = i-time; j <= i; j++){
+                if(security[j] > current){continue outer}
+                current = security[j]
             }
-            currentHigh = security[k]
+            let currentHigh;
+            for(let k = i+time; k >= i; k--){
+                if(security[k] > currentHigh){
+                    continue outer
+                }
+                currentHigh = security[k]
+            }
+            days.push(i)
         }
-        days.push(i)
-    }
     return days
 };
 
-console.log(goodDaysToRobBank([1,2,3,4],1))
+console.log(goodDaysToRobBank([1,2,3,4],2))
+
