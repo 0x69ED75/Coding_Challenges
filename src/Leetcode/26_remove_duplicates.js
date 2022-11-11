@@ -18,5 +18,14 @@ var removeDuplicates = function(nums) {
     return nums
 };
 
+// O(1) memory solution
+var removeDuplicatesO1Mem = function(nums) {
+    for(let i = 0; i < nums.length; i++){
+        while(nums[i] === nums[i+1]){
+            nums.splice(i,1)
+        }
+    }
+    return nums.length
+};
 
 console.log(removeDuplicates([-1,0,0,0,0,3,3]))
