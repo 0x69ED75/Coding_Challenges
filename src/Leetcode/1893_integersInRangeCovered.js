@@ -44,4 +44,28 @@ var isCovered = function(ranges, left, right) {
     return n === 0;
 };
 
-console.log(isCovered([[25,42],[7,14],[2,32],[25,28],[39,49],[1,50],[29,45],[18,47]],15,38))
+// slightly improved version; removed .fill, now rangelook[i] is undefined unless it is a value between left or right, at which case it is set to 1
+var isCoveredImproved = function(ranges, left, right) {
+    let rangeLook = new Array(right)
+    for(let i = left; i <= right; i++){
+        rangeLook[i] = 0
+    }
+
+    let n = right - left +1
+
+
+    for(let i = 0; i < ranges.length; i++){
+        for(let j = ranges[i][0]; j <= ranges[i][1]; j++){
+            if(n === 0){return true}
+            if(rangeLook[j] === 0){
+                n--;
+                rangeLook[j] = '1'
+            }
+        }
+    }
+
+    return n === 0;
+};
+
+
+console.log(isCoveredImproved([[1,2],[3,4],[5,6]],2,5))
