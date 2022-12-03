@@ -45,4 +45,4 @@ var closeStrings = function(word1, word2) {
 
 };
 
-console.log(closeStrings("uau","ssx"))
+console.log(closeStrings("uiuiiuuiuuuuuuwiwuuwiiiiuuuuwwiwuuu","rppprrpurrrrrurrrurprprprprpuprruur"))
