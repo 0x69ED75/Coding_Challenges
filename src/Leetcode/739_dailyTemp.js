@@ -4,19 +4,18 @@ Given an array of integers temperatures represents the daily temperatures, retur
 is the number of days you have to wait after the ith day to get a warmer temperature.
 If there is no future day for which this is possible, keep answer[i] == 0 instead.
  */
-
 var dailyTemperatures = function(temperatures) {
-    let temps = []
-    let vals = new Array(temperatures.length).fill(0)
+    let stack = []
+    let result = new Array(temperatures.length).fill(0)
+
     for(let i = 0; i < temperatures.length;i++){
-        for(let j = 0; j < temps.length; j++){
-            if(temperatures[i] > temps[j][0]){
-                vals[temps[j][1]] = i - [temps[j][1]]
-                temps.splice(j,1)
-                j--
-            }
+        while(stack.length > 0 && temperatures[stack.at(-1)] < temperatures[i]){ // .at(-1) checks end of arr (top of stack)
+            let temp = stack.pop()
+            result[temp] = i-temp
         }
-        temps.push([temperatures[i],i])
+        stack.push(i)
     }
-    return vals
+    return result
 };
+
+console.log(dailyTemperatures([73,74,75,71,69,72,76,73]))
