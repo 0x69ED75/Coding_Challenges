@@ -16,8 +16,8 @@ function minimumRounds(tasks: number[]): number {
     for(let i = 0; i < keys.length;i++){
         let x:number = map.get(keys[i])
         if(x === 1){return -1}
-        count += Math.ceil(x / 3)
-    }
+        count += Math.ceil(x / 3) // The min number of rounds is the maximum amount of times the number is divisible by 3.
+    }                                // for example, 7 / 3 = 2.333 -> ceil (2.333) = 3 as we must consider the remainder of the division when not able to be divided equally by 3 -> We can use two groups of 3 and one group of two.
     return count
 }
 
