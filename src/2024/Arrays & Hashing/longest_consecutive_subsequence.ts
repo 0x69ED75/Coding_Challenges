@@ -47,4 +47,24 @@ function longestConsecutive_2(nums: number[]): number {
     return max
 };
 
-console.log(longestConsecutive_2([1,2,0,1]))
+// O(n)
+function longestConsecutive_3(nums: number[]): number {
+    let numSet = new Set(nums)
+    let maximum = 0
+
+    for(let i = 0; i <nums.length;i++){
+        if(!numSet.has(nums[i]-1)){
+            let len = 0
+            while (numSet.has(nums[i] + len)){
+                len +=1
+            }
+            maximum = Math.max(len,maximum)
+        }
+    }
+    return maximum
+};
+
+
+console.log(longestConsecutive_3([]))
+console.log(longestConsecutive_3([1]))
+console.log(longestConsecutive_3([-7,7,-6,6,-1,2,5,-5,-2,8]))
